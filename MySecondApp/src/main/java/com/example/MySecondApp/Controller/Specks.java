@@ -16,4 +16,12 @@ public class Specks {
 
         return List.of("SUN GLASES","MOON GLASES","REBN GLASES");
     }
+    
+    @RequestMapping(value = "/Getallframe",method = RequestMethod.GET)
+    public List<String> getAllframe(){
+
+
+        return List.of("metal frame","silver frame","gold frame");
+        
+    }
 }
