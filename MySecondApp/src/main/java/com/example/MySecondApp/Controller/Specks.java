@@ -24,4 +24,12 @@ public class Specks {
         return List.of("metal frame","silver frame","gold frame");
         
     }
+    
+    @RequestMapping(value = "/Getalllense",method = RequestMethod.GET)
+    public List<String> getAlllense(){
+
+
+        return List.of("red","blue","green");
+        
+    }
 }
